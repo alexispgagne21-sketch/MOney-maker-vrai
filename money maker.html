@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Money Maker 💰</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav-links a:hover {
+    opacity: 1;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px 80px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* TEXTE ACCROCHE */
+.connect {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #00ffcc;
+}
+
+/* BUTTON */
+.button {
+    margin-top: 30px;
+    padding: 18px 40px;
+    font-size: 20px;
+    color: #444;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.button:hover {
+    transform: scale(1.08);
+    background: #f1f1f1;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    backdrop-filter: blur(10px);
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">Money Maker💰</div>
+    <div class="nav-links">
+        <a href="#">Host</a>
+        <a href="#">Gains</a>
+        <a href="#">About</a>
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Welcom in Money Maker💰</h1>
+    <p>
+Log in to access features and get started</p>
+
+    <div class="connect">Fast connexion with Google</div>
+
+    <button class="button" onclick="goLogin()">
+        🔐 Log in with Google
+    </button>
+</div>
+
+<!-- FEATURES -->
+<div class="features">
+    <div class="card">
+        <h3>🔒 Securitised</h3>
+        <p>Fast and safe connexion</p>
+    </div>
+
+    <div class="card">
+        <h3>⚡ Fast access</h3>
+        <p>Start in few seconds</p>
+    </div>
+
+    <div class="card">
+        <h3>📱 Simple</h3>
+        <p>Interface easy to use</p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 Money Maker - Demo
+</div>
+
+<script>
+function goLogin() {
+    window.location.href = "web google login.html";
+}
+</script>
+
+</body>
+</html>
+
